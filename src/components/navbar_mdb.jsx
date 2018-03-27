@@ -45,10 +45,19 @@ export default class Navbarmdb extends React.Component{
           <NavLink className="nav-link" to="/parentcenter">PARENT CENTER</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink className="nav-link" to="/pricing">Pricing</NavLink>
+          <NavLink className="nav-link" to="/about">ABOUT</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink className="nav-link" to="/opinions">Opinions</NavLink>
+          <NavLink className="nav-link" to="/services">SERVICES</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink className="nav-link" to="/resources">RESOURCES</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink className="nav-link" to="/media">MEDIA</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink className="nav-link" to="/getinvolved">GET INVOLVED</NavLink>
         </NavItem>
       </NavbarNav>
       <NavbarNav className="ml-auto">
