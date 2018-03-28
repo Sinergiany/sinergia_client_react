@@ -60,25 +60,27 @@ export default class Navbarmdb extends React.Component{
           <NavLink className="nav-link" to="/getinvolved">GET INVOLVED</NavLink>
         </NavItem>
       </NavbarNav>
-      <NavbarNav className="ml-auto">
-        <NavItem>
-          <NavLink className="nav-link" to="https://facebook.com/">dasdasd</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink className="nav-link" to="https://twitter.com/">csdsdas</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink className="nav-link" to="https://instagram.com/">dasdas</NavLink>
-        </NavItem>
-      </NavbarNav>
+     
     </Collapse>
   </Navbar>
 
+  <div className="view intro hm-purple-light" >
+      <div className="full-bg-img flex-center">
+          <div className="container text-center white-text wow fadeInUp">
+              <h2>This Navbar is fixed and transparent</h2>
+              <br/>
+              <h5>It will always stay visible on the top, even when you scroll down</h5>
+              <p>Navbar's background will switch from transparent to solid color while scrolling down</p>
+              <br/>
+              <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+          </div>
+      </div>
+  </div>
 
 
 </header>
 
 
-    )
+    );
   }
 }
