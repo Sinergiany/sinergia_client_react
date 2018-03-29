@@ -8,7 +8,7 @@ export default class Carouselshow extends React.Component{
 
     render() {
         return (
-            <Carousel showArrows={true} onChange={this.onChange} onClickItem={this.onClickItem} onClickThumb={this.onClickThumb}>
+            <Carousel autoPlay={true} showArrows={true} onChange={this.onChange} onClickItem={this.onClickItem} onClickThumb={this.onClickThumb}>
                 <div>
                     <img src={logo} />
                     <p className="legend">Legend 1</p>

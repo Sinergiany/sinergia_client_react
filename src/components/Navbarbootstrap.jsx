@@ -30,11 +30,11 @@ export default class Navbarbootstrap extends React.Component{
 				              <MenuItem divider />
 				        <MenuItem eventKey={3.2}><NavLink to='/parentcenter'>IDEA</NavLink></MenuItem>
 				              <MenuItem divider />
-				        <MenuItem eventKey={3.3}><NavLink to='/parentcenter'>PARENT CENTER</NavLink></MenuItem>
+				        <MenuItem eventKey={3.3}><NavLink to='/parentcenter'>AUTISM INICIATIVE</NavLink></MenuItem>
 				        	<MenuItem divider />
-				        <MenuItem eventKey={3.4}><NavLink to='/parentcenter'>PARENT CENTER</NavLink></MenuItem>
+				        <MenuItem eventKey={3.4}><NavLink to='/parentcenter'>INFORMATION</NavLink></MenuItem>
 				        	<MenuItem divider />
-				        <MenuItem eventKey={3.5}><NavLink to='/parentcenter'>PARENT CENTER</NavLink></MenuItem>
+				        <MenuItem eventKey={3.5}><NavLink to='/parentcenter'>PARENT CENTER NETWORK</NavLink></MenuItem>
 				  
 				      </NavDropdown>
 
