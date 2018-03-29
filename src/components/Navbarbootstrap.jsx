@@ -71,10 +71,10 @@ export default class Navbarbootstrap extends React.Component{
 				        <NavLink to='/blog'>BLOG </NavLink>
 				      </NavItem>
 				      <NavItem eventKey={2} href="#">
-				        <NavLink to='/blog'>CALENDAR </NavLink>
+				        <NavLink to='/calendar'>CALENDAR </NavLink>
 				      </NavItem>
 				        <NavItem eventKey={2} href="#">
-				        <NavLink to='/blog'>DONATE </NavLink>
+				        <NavLink to='/donate'>DONATE </NavLink>
 				      </NavItem>
 				    </Nav>
 
@@ -82,8 +82,8 @@ export default class Navbarbootstrap extends React.Component{
 				  </Navbar.Collapse>
 				</Navbar>
 
-				 <LinkContainer to="/media">
-                      <Button>Foo</Button>
+				 <LinkContainer to="/">
+                      <Button>Home</Button>
                     </LinkContainer>
 
 			</div>
