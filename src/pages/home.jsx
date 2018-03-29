@@ -1,45 +1,35 @@
 import React from 'react';
-
-
+import Carouselshow from '../components/slideShow';
+import './CSS/home.css';
+import supporter from '../img/SignUpSupporter.png'
 
 
 export default class About extends React.Component{
 
   render(){
     return(
-      <div className="home-text">
+      <div class="grid-container">
 
-        <h1>Primera line de Home page</h1>
-        <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-        <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-        <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-        <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-        <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-        <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-        <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-        <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-        <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-        <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-          <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-          <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-          <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-          <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-          <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-          <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-          <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-          <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-          <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-          <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-            <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-            <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-            <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-            <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-            <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-            <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-            <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-            <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
-            <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
-            <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
+    
+    
+
+        <div className="grid-item ">
+
+         <img src={supporter} />
+
+        </div>
+
+       
+         <div className="grid-item slideShow">
+
+          <Carouselshow />
+
+        </div>
+
+       
+
+
+        
 
       </div>
     );
