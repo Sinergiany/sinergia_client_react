@@ -8,7 +8,7 @@ export default class Navbarbootstrap extends React.Component{
 	render(){
 		return(
 			<div>
-				<Navbar inverse collapseOnSelect>
+				<Navbar inverse collapseOnSelect navbar>
 				  <Navbar.Header>
 				    <Navbar.Brand>
 				    <NavLink to='/'>React-Bootstrap</NavLink>
@@ -82,9 +82,9 @@ export default class Navbarbootstrap extends React.Component{
 				  </Navbar.Collapse>
 				</Navbar>
 
-				 <LinkContainer to="/">
-                      <Button>Home</Button>
-                    </LinkContainer>
+				{/* <LinkContainer to="/">
+				                      <Button>Home</Button>
+				                    </LinkContainer> */}
 
 			</div>
 

@@ -1,27 +1,7 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body{
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
 .App {
   text-align: center;
   padding: 85px;
@@ -47,7 +27,18 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.navbar{
+  height: 75px;
+}
+
+
+
+
+@media (min-width: 960px){
+
+
+
+       
+
+
 }
