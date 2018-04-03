@@ -16,7 +16,8 @@ import Settings from './pages/settings';
 
 import {
   BrowserRouter as ReactRouter,
-  Route
+  Route,
+  Switch
 }from 'react-router-dom';
 
 
@@ -25,6 +26,7 @@ export default class Router extends React.Component{
     return(
       <ReactRouter>
         <App>
+        <Switch>
           <Route exact path='/' component={Home} > </Route>
           <Route exact path='/parentcenter' component={Parentcenter} > </Route>
           <Route exact path='/About' component={About} > </Route>
@@ -38,6 +40,7 @@ export default class Router extends React.Component{
           <Route exact path='/contact' component={Contact} > </Route>
           <Route exact path='/carrers' component={Carrers} > </Route>
           <Route exact path='/settings' component={Settings} > </Route>
+        </Switch>
         </App>
 
       </ReactRouter>

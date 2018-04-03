@@ -1,17 +1,31 @@
 import React from 'react';
+import sinergialogo from '../sinergia_logo.png';
 
 
 
+export default class About extends React.Component{
 
-export default class Home extends React.Component{
+
 
   render(){
     return(
-      <div className="landing-page">
+      	
+    	
+    		 <div className='row '>
 
-        <h1> ABOUT PAGE HHH</h1>
+	            <div className=''> 
+	              <h1> About Page </h1>
+	              
+	            </div>
 
-      </div>
+      
+	          </div>
+
+
+
+		
+
+
     );
   }
 }
