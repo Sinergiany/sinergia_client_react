@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {Nav, NavItem, Navbar, NavDropdown, MenuItem, Glyphicon} from 'react-bootstrap';
-import styles from'./SideBarMenu.css';
+import {Nav, NavItem, Navbar, NavDropdown, MenuItem, Glyphicon, Button} from 'react-bootstrap';
+
 
 import {LinkContainer} from 'react-router-bootstrap';
 export default class Navbarbootstrap extends React.Component{
@@ -77,6 +77,7 @@ export default class Navbarbootstrap extends React.Component{
 				        <NavItem eventKey={2} href="#">
 				        <Link to='/donate'>DONATE </Link>
 				      </NavItem>
+				       <button class="toggle-button">☰</button>
 				    </Nav>
 
 

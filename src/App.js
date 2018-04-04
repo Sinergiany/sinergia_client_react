@@ -6,52 +6,40 @@ import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import PageTransition from 'react-router-page-transition';
 
-import Sidebar from './components/sidebar';
+import Topnav from './components/Topnav';
+import Slideoutmenu from './components/Slideoutmenu';
+
 import './include/bootstrap';
 
-
+import Slideout from 'slideout';
+const $ = window.jQuery
 
 
 
 class App extends Component {
+
   render() {
     return (
-        
-            <div className="wrapper">
+        <div>
 
-           		<Sidebar/>
-             
-             
-             <div id="content">
+        		<Slideoutmenu />
+			    <div id="panel">
+			    
+			      <header>
+			        
+			       <Topnav />
+			        
+			        {this.props.children} 
+			      </header>
 
-                <nav className="navbar navbar-default">
-                    <div className="container-fluid">
+			      <div id="carousel" data-slideout-ignore>
+    				<h2>Carousel</h2>
+   
+  					</div>
 
-                        <div className="navbar-header">
-                            <button type="button" id="sidebarCollapse" className="navbar-btn">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </button>
-                        </div>
-
-                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul className="nav navbar-nav navbar-right">
-                                <li><a href="#">Page</a></li>
-                                <li><a href="#">Page</a></li>
-                                <li><a href="#">Page</a></li>
-                                <li><a href="#">Page</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
-             
-                  {this.props.children}
-                   
-               </div>
-
-            </div>        
+			    </div>
+      
+        </div>         
 
     );
   }

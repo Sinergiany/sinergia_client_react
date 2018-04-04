@@ -1,17 +1,28 @@
-import React  from 'react';
+import React from 'react';
+import sinergialogo from '../sinergia_logo.png';
 
 
+const $ = window.jQuery
 
 
 export default class Contact extends React.Component{
 
+
   render(){
     return(
-      <div className="landing-page">
+      	
+    	
+    	
 
-        <h1> CONTACT PAGE </h1>
+			<h1> Contact Page </h1>
+      
+	
 
-      </div>
+
+
+		
+
+
     );
   }
 }
