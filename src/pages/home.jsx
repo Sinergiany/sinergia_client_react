@@ -9,7 +9,7 @@ export default class About extends React.Component{
 
   render(){
     return(
-      <div class="grid-container">
+      <div className="grid-container">
 
           <div className='row '>
 

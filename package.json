@@ -17,6 +17,7 @@
     "react-router-dom": "^4.2.2",
     "react-router-page-transition": "^3.0.2",
     "react-scripts": "1.1.1",
+    "react-transformicons": "^1.0.2",
     "react-transition-group": "^2.3.0",
     "slideout": "^1.0.1",
     "tether": "^1.4.3"

@@ -11,18 +11,39 @@ export default class Contact extends React.Component{
   render(){
     return(
       	
-    	
-    	
+    	<div class="grid-container">
 
-			<h1> Contact Page </h1>
-      
-	
+          <div className='row '>
+
+            <div className=''> 
+              <h1> Providing Multicultural, Lifespan Services for People with Disabilities </h1>
+              
+            </div>
+
+            <div className=''> 
+              Providing Multicultural, Lifespan Services for People with Disabilities
+            
+            </div>
+
+          </div>
 
 
+          <div className='row '>
 
-		
+            <div className=''> 
+              Providing Multicultural, Lifespan Services for People with Disabilities
+              
+            </div>
 
+            <div className=''> 
+              Providing Multicultural, Lifespan Services for People with Disabilities
+            
+            </div>
 
+          </div>
+    
+       
+      </div>
     );
   }
 }

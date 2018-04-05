@@ -5855,6 +5855,10 @@ react-swipeable@^4.0.0:
     detect-passive-events "^1.0.4"
     prop-types "^15.5.8"
 
+react-transformicons@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-transformicons/-/react-transformicons-1.0.2.tgz#8d408465b28d00aca4991ee582edb0d125ed702e"
+
 react-transition-group@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-1.2.1.tgz#e11f72b257f921b213229a774df46612346c7ca6"

@@ -6,16 +6,26 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     margin-top: 0px;
+    color: black;
 }
 
-/* Links inside the navbar */
-.navbar a {
+/* Animate menu button */
+.navbar .button-nav{
+    display: inline-block;
+    vertical-align: middle;
     float: left;
-    display: block;
-    color: #f2f2f2;
+}
+
+
+/* Links inside the navbar */
+.navbar .paginas {
+    /*float: right;*/
+    display: inline-block;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* Change background on mouse-over */
@@ -28,4 +38,5 @@
 .main {
     margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+
 
