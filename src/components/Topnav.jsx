@@ -2,37 +2,47 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './Topnav.css';
 
-import './NavButton.css';
 
 
 
+const $ = window.jQuery
 
 export default class Topnav extends React.Component{
 
 	componentDidMount(){
+		var wrapperMenu = document.querySelector('.wrapper-button');
 
-		
+		wrapperMenu.addEventListener('click', function(){
+		  wrapperMenu.classList.toggle('open');  
+		})
+				
 	}
 
 	render(){
 		return(
 		
-			<nav className="navbar" id="myTopnav">
-			  <div class="container toggle-button">
-				  <div class="bar1"></div>
-				  <div class="bar2"></div>
-				  <div class="bar3"></div>
-				</div>
+		<nav className="navbar" id="myTopnav">
+ 			<div>
+			<div class="wrapper-button toggle-button">
 
-			 <Link  className="paginas" to="/">HOME</Link>
-			 <Link  className="paginas" to="/about">ABOUT</Link>
-			 <Link  className="paginas" to='/services'>SERVICES</Link>
-			 <Link  className="paginas" to="/parentcenter">parentcenter</Link>
-			 <Link  className="paginas" to="/media">media</Link>
-			 <Link  className="paginas" to="/about">ABOUT</Link>
-			 <Link  className="paginas" to="/about">ABOUT</Link>
+				<div class="line-menu half start "></div>
+				<div class="line-menu"></div>
+				<div class="line-menu half end"></div>
+			</div>
 
-			</nav>
+		 	<Link  className="paginas" to="/contact">contact us</Link>
+		 	<Link  className="paginas" to="/Careers">Careers</Link>
+		 	<Link  className="paginas" to="/getinvolved">get involved</Link>
+		 	<Link  className="paginas" to="/media">media center</Link>
+		 	<Link  className="paginas" to="/blog">blog / news</Link>
+		 	<Link  className="paginas" to="/donate">donate</Link>
+			<Link  className="paginas" to="/parentcenter">parentcenter</Link>
+			<Link  className="paginas" to='/services'>services</Link>
+			<Link  className="paginas" to="/about">who we are</Link>
+		 	</div>
+
+
+		</nav>
 		);
 	}
 }
