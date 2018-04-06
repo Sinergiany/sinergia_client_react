@@ -29,26 +29,22 @@ export default class Slideoutmenu extends React.Component{
     return(
       	
     	<nav id="menu">
-    	 <Link to='/'><img  src={sinergialogo} id="logo" alt="sinergiaLogo"/></Link>
-    		 <ul>
 
-    		 	  <li> <Link to='/'>HOME</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 	  <li> <Link to='/about'>ABOUT</Link> </li>
-    		 </ul>
+	    	 <Link to='/'><img  src={sinergialogo} id="slide-logo" alt="sinergiaLogo"/></Link>
+
+    		 <div className='sidenav'>
+    		   <div className="slide-pages"> <Link to='/services'>services</Link> </div> 
+		 	   <div className="slide-pages"> <Link to='/parentcenter'>parent center</Link> 		</div> 
+		 	   <div className="slide-pages"> <Link to='/about'>who we are</Link> </div>
+		 	   <div className="slide-pages"> <Link to='/blog'>blog / news</Link> </div> 
+		 	   <div className="slide-pages"> <Link to='/media'>media center</Link> </div> 
+		 	   <div className="slide-pages"> <Link to='/getinvolved'>get involved</Link> </div> 
+		 	   <div className="slide-pages"> <Link to='/contact'>contact us</Link> </div> 
+		 	   <div className="slide-pages"> <Link to='/donate'>donate</Link> </div> 
+		 	   <div className="slide-pages"> <Link to='/careers'>careers</Link> </div> 
+		 	   <div className="slide-pages"> <Link to='/feedback'>feedback</Link> </div>  
+    		 </div>
+
         </nav>
 
 

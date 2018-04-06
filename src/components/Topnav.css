@@ -1,6 +1,6 @@
 /* The navigation bar */
-.navbar {
-    background: #5eaba8;
+nav.navbar {
+    background-color: #ececec;
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -16,14 +16,20 @@
     float: left;
 }
 
+.paginas{
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
 
 /* Links inside the navbar */
 .navbar .paginas {
     float: right;
     display: inline-block;
     color: black;
+    font-weight: bold;
+    font-size: 17px;
     text-align: center;
-    padding: 15px 27px;
+    padding: 15px 17px;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
@@ -34,6 +40,9 @@
 .navbar a:hover {
     background: #ddd;
     color: black;
+    font-size: 17.2px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 
 /* Main content */
@@ -42,7 +51,13 @@
 }
 
 
-
+.top-logo{
+    float: left;
+    width: 13%;
+    display: inline-flex;
+    padding: 0px 0px 0px 05px;
+    margin: 0px 0px 0px 100px;
+}
 
 .wrapper-button {
   width: 50px;
